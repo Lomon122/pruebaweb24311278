@@ -1,0 +1,60 @@
+/* Fuente elegante estilo fantasía */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    background: radial-gradient(circle at top, #2b2b2b, #0f0f0f);
+    color: #e0d8b0;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    padding: 40px 20px;
+    border-bottom: 1px solid rgba(224, 216, 176, 0.2);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    color: #d6b76c;
+    text-shadow: 0 0 15px rgba(214, 183, 108, 0.4);
+}
+
+/* Texto */
+h3 {
+    max-width: 800px;
+    margin: 30px auto;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #dcd3a2;
+}
+
+/* Imagen */
+img {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 2px solid rgba(214, 183, 108, 0.4);
+    box-shadow: 0 0 30px rgba(214, 183, 108, 0.25);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 45px rgba(214, 183, 108, 0.5);
+}
+
+/* Video */
+video {
+    width: 70%;
+    max-width: 700px;
+    margin: 40px auto;
+    display: block;
+    border-radius: 12px;
+    border: 2px solid rgba(214, 183, 108, 0.3);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
